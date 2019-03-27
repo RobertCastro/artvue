@@ -1,0 +1,14 @@
+
+PICIES:
+-Crear la politica, de acceso 
+-definir la regla en el metodo
+-definir en el controlador en cada metodo 
+-agregar la politica al provider AuthServiceProvider
+
+
+1. crear politicas de acceso 
+php artisan make:policy UserPolicy -m User //crea la politica y la asocia al modelo user
+2. configurar metodos 
+3. enlazar la pilitica con modelo User en: AuthServiceProvider.php
+4. hace uso de las politicas en UserController de la administración haciendo uso de alloweb()
+5. crear los permisos 

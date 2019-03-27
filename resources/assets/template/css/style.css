@@ -1,0 +1,13 @@
+.swal2-icon-text {
+    font-size: 1.25em !important;
+}
+
+
+
+.swal2-popup {
+    font-size: initial !important;
+}
+
+button.swal2-cancel {
+    margin-right: 9px;
+}
