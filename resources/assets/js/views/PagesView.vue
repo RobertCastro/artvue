@@ -37,7 +37,7 @@
             <div class="col-md-6">
                 <div class="box box-success">
                     <div class="box-header with-border">
-                        <h3 class="box-title">Añadir cron  </h3>
+                        <h3 class="box-title">Añadir codigo  </h3>
                     </div>
                     <div class="box-body">
                         <form action="" method="POST" >
@@ -45,18 +45,6 @@
                             <div class="form-group">
                                 <label for="update_code">Codigo actualizar</label>
                                 <input type="text" v-model="update_code" class="form-control">
-                            </div>
-                            <div class="form-group">
-                               <!--  <div class='input-group date' id='datetimepicker1'>
-                                
-                                    <input type="date" v-model="cron_date" name="cron_date"   class="form-control" />
-                           
-                                    <span class="input-group-addon">
-                                        <span class="glyphicon glyphicon-calendar"></span>
-                                    </span>
-                                </div> -->
-
-                                <input type="date" v-model="cron_date" class="form-control" >
                             </div>
                            
                             <button @click="newCron()" type="button" class="btn btn-primary btn-block">Programar </button>

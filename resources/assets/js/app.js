@@ -2,7 +2,7 @@
 
 require('./bootstrap');
 
-import Datepicker from 'vuejs-datepicker';
+// import Datepicker from 'vuejs-datepicker';
 
 import Vue from 'vue';
 
@@ -18,5 +18,5 @@ const app = new Vue({
     data:{
     	menu : 0
     },
-	Datepicker
+	// Datepicker
 });
